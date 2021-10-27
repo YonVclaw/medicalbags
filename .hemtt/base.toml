@@ -1,0 +1,8 @@
+name = "mbag"
+prefix = "mbag"
+author = "YonV"
+template = "cba"
+mainprefix = "z"
+include = ["./include"]
+folder_optionals = true
+sig_version = 3

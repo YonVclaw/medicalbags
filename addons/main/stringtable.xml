@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Arma_Extended_Environment">
+
+    <!-- ####################################################################################### -->
+    <Package name="medbag_Medical_Supplies">
+
+        <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+        <Container name="Medical_Supplies">
+            <!-- =============================================================================== -->
+            <Key ID="STR_medbag_Medical_Supplies_Title">
+                <Original>AXE Medical Supplies</Original>
+            </Key>
+            <Key ID="STR_medbag_Medical_Supplies_Author">
+                <Original>YonV</Original>
+            </Key>
+            <Key ID="STR_medbag_Medical_Supplies_URL">
+                <Original>https://github.com/YonVclaw/medicalbags</Original>
+            </Key>
+            <!-- =============================================================================== -->
+        </Container >
+        <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+        <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+        <Container name="Interactions">
+            <!-- =============================================================================== -->
+            <Key ID="STR_medbag_Medical_Supplies_Action_FirstAid">
+                <Original>Unpack Personal Aid Pack</Original>
+            </Key>
+            <Key ID="STR_medbag_Medical_Supplies_Action_MedicKit">
+                <Original>Unpack Medic Kit</Original>
+            </Key>
+            <!-- =============================================================================== -->
+        </Container >
+        <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+        <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+        <Container name="Messages">
+            <!-- =============================================================================== -->
+            <Key ID="STR_medbag_Medical_Supplies_Progress_FirstAid">
+                <Original>Unpacking Personal Aid Pack...</Original>
+            </Key>
+            <Key ID="STR_medbag_Medical_Supplies_Progress_MedicKit">
+                <Original>Unpacking Medic Kit...</Original>
+            </Key>
+            <!-- =============================================================================== -->
+        </Container >
+        <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+        <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+        <Container name="Items">
+            <!-- =============================================================================== -->
+            <Key ID="STR_medbag_Item_Medical_FirstAid_DisplayName">
+                <Original>Personal Aid Pack</Original>
+            </Key>
+            <Key ID="STR_medbag_Item_Medical_FirstAid_Description">
+                <Original>Contains material for first aid</Original>
+            </Key>
+            <!-- =============================================================================== -->
+            <Key ID="STR_medbag_Item_Medical_MedicKit_DisplayName">
+                <Original>Medic Kit</Original>
+            </Key>
+            <Key ID="STR_medbag_Item_Medical_MedicKit_Description">
+                <Original>Contains material for Medics</Original>
+            </Key>
+            <!-- =============================================================================== -->
+        </Container >
+        <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+    </Package>
+    <!-- ####################################################################################### -->
+
+</Project>
