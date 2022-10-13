@@ -9,7 +9,10 @@ sig_version = 3
 
 files = [
     "mod.cpp",
-    "cow.paa"
+    "gobp2_256_g.paa",
+    "gobp2_256.paa",
+    "gobp2_512.paa",
+    "gbbanner_booboo.paa"
     ]
 
 exclude = ["*.psd", "*.png", "*.tga"]
@@ -17,7 +20,7 @@ exclude = ["*.psd", "*.png", "*.tga"]
 
 modname = "{{name}}"
 key_name = "{{prefix}}_{{version}}"
-authority = "{{prefix}}_{{version}}-{{git \"id 8\"}}"
+authority = "{{prefix}}_{{version}}-"
 
 
 check = [
@@ -29,7 +32,7 @@ postbuild = [
 ]
 
 releasebuild = [
-    "@zip @medbag_{{version}}"
+    "@zip @MEDBAG_{{version}}"
 ]
 
 [header_exts]
@@ -39,7 +42,7 @@ version = "{{git \"id 8\"}}"
 [scripts.compile_scripts]
 steps_windows = [
     "echo 'Compile Arma Scripts'",
-    "ArmaScriptCompiler.exe"
+    "ArmaScriptCompiler"
 ]
 
 steps_linux = [

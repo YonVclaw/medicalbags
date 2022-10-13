@@ -1,6 +1,6 @@
-name = "Megical Bags";
-dir = "medbags";
+name = "Medical Bags";
+dir = "MEDBAGs";
 author = "YonV";
-picture = "cow.paa";
-logo = "cow.paa";
-logoOver = "cow.paa";
+picture = "gbbanner_booboo.paa";
+logo = "gobp2_256.paa";
+logoOver = "gobp2_256_g.paa";

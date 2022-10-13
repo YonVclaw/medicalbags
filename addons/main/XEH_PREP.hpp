@@ -1,0 +1,10 @@
+PREP(additem);
+PREP(canfirstaid);
+PREP(canmedkit);
+PREP(candrugkit);
+PREP(dofirstaid);
+PREP(domedkit);
+PREP(dodrugkit);
+PREP(arsenal);
+PREP(cantrauma);
+PREP(dotrauma);

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 #######################
-#  mbag Setup Script  #
+#  medbag Setup Script  #
 #######################
 
 import os
@@ -13,26 +13,26 @@ import winreg
 
 ######## GLOBALS #########
 MAINDIR = "z"
-PROJECTDIR = "mbag"
+PROJECTDIR = "medbag"
 ##########################
 
 def main():
     FULLDIR = "{}\\{}".format(MAINDIR,PROJECTDIR)
     print("""
   ######################################
-  # mbag Development Environment Setup #
+  # medbag Development Environment Setup #
   ######################################
 
-  This script will create your mbag dev environment for you.
+  This script will create your medbag dev environment for you.
 
   Before you run this, you should already have:
     - A properly setup ACE3 Development Environment
 
   If you have not done those things yet, please abort this script in the next step and do so first.
 
-  This script will create two hard links on your system, both pointing to your mbag project folder:
-    [Arma 3 installation directory]\\{} => mbag project folder
-    P:\\{}                              => mbag project folder
+  This script will create two hard links on your system, both pointing to your medbag project folder:
+    [Arma 3 installation directory]\\{} => medbag project folder
+    P:\\{}                              => medbag project folder
     """.format(FULLDIR,FULLDIR))
     print("\n")
 

@@ -1,0 +1,15 @@
+{
+    "inputDirs": [
+        "P:/z/medbag/addons/"
+    ],
+    "includePaths": [
+        "P:/"
+    ],
+    "excludeList": [
+        "initsettings.sqf",
+        "initkeybinds.sqf",
+        "XEH_PREP.sqf"
+    ],
+    "outputDir": "P:/",
+    "workerThreads": 12
+}
