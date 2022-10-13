@@ -36,4 +36,5 @@ For building release builds see [ACE3 reference](https://ace3mod.com/wiki/develo
 
 ## License
 This work uses the license Arma Public License Share Alike [Arma Public License Share Alike (APL-SA)](https://www.bohemia.net/community/licenses/arma-public-license-share-alike)
+
 You can freely modify, copy, "cannibalize", to use in your projects.
