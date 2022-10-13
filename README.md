@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="183rd.png" width="480">
+    <img src="newlogo.png" width="480">
 </p>
 
 <p align="center">
@@ -22,8 +22,6 @@
 </p>
 
 
-
-
 ### Building
 
 The build process is base on the [ACE3 build process](https://ace3mod.com/wiki/development/setting-up-the-development-environment.html), so you can follow the steps there. Basically the following is needed:
@@ -37,5 +35,5 @@ The build process is base on the [ACE3 build process](https://ace3mod.com/wiki/d
 For building release builds see [ACE3 reference](https://ace3mod.com/wiki/development/setting-up-the-development-environment.html).
 
 ## License
-This work uses the license Arma Public License Share Alike (APL-SA)[www.bohemia.net]
+This work uses the license Arma Public License Share Alike [Arma Public License Share Alike (APL-SA)](https://www.bohemia.net/community/licenses/arma-public-license-share-alike)
 You can freely modify, copy, "cannibalize", to use in your projects.
