@@ -29,7 +29,7 @@ if (isNull _unit) exitWith {};
         [],
         { MEDBAG_MEDICAL_SUPPLIES_UNPACK_SUCCESS = true; },
         { MEDBAG_MEDICAL_SUPPLIES_UNPACK_FAILURE = true; },
-        localize "Unpack Mead Kit....",
+        localize "Unpack Med Kit....",
 
         {true},
         ["isNotInside", "isNotSitting", "isNotSwimming"]
